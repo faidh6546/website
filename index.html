@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>moqaem</title>
+
+  <!-- Your Firebase setup inside the head is fine -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-analytics.js";
+    
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyC0LVDYvYCm6Mzqf1L1f89aeNf_H7hE2os",
+      authDomain: "eid-fotor.firebaseapp.com",
+      databaseURL: "https://eid-fotor-default-rtdb.firebaseio.com",
+      projectId: "eid-fotor",
+      storageBucket: "eid-fotor.firebasestorage.app",
+      messagingSenderId: "897471347145",
+      appId: "1:897471347145:web:0611d0ef8dc9e2cd42d018",
+      measurementId: "G-E676GX0DY0"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  <!-- Link to your own JavaScript file -->
+  <script src="signp.js"></script>
+</head>
+<body>
+
+  <h1>Welcome to My Website</h1>
+  <p>This is a basic HTML page.</p>
+
+</body>
+</html>
